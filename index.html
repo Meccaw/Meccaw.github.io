@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Baek Yijin & Na Hee Do Wedding</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+
+    <!--simplyCountdown-->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--Hero Section-->
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-4 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+      <main>
+        <h4>Kepada penonton 2521,</h4>
+        <h1>Baek Yijin & Na Hee Do</h1>
+        <p>Akan menikah dalam:</p>
+
+        <div class="simply-countdown"></div>
+
+        <br />
+
+        <a href="#undangan" class="btn btn-lg mt-4" onclick="enableScroll()">Lihat Undangan</a>
+      </main>
+    </section>
+
+    <!--Navbar start-->
+
+    <nav class="navbar  navbar-expand-md bg-body-transparant sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">2521 Wedding</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">YiDo</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#info">Info</a>
+                <a class="nav-link" href="#story">Story</a>
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+<section id="home" class="home">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <h2>Acara Pernikahan</h2>
+                <h3>Diselenggarakan pada 23 Oktober 2024 di Cibinong, Kabupaten Bogor</h3>
+                <p>Oleh karena itu, agar para penonton tidak lagi menyenggol drama 2521 lagi.
+                    Kami akan menjadikan "Selamat atas pernikahanmu", menjadi "Selamat atas pernikahan kita".</p>
+            </div>
+        </div>
+
+        <div class="row couple">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-8 text-end">
+                        <h3>Baek Yijin</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Saepe maiores quaerat necessitatibus cupiditate repellendus nesciunt.</p>
+                            <p>Putra dari siapa <br> dan <br> siapa </p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/Baek Yijin.png" alt="Baek Yijin" class="img-responsive rounded-circle">
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="img/Na Hee Do.png" alt="Na Hee Do" class="img-responsive rounded-circle">
+                            </div>
+                            <div class="col-8 ">
+                                <h3>Na Hee Do</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Saepe maiores quaerat necessitatibus cupiditate repellendus nesciunt.</p>
+                                    <p>Putri dari siapa <br> dan <br> siapa </p>
+                                </div>
+                            </div>
+                            </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="info" class="info">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-10 text-center ">
+                <h2>Informasi Acara</h2>
+                <p class="alamat">Alamat: SMPN 2 Cibinong<br>Jl. KSR Dadi Kusmayadi, RT.02/RW.08, Sukahati, 
+                    Kec. Cibinong, Kabupaten Bogor</p>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232033.18690534626!2d105.22962306730828!3d-7.720007698176146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c1f6030317b9%3A0xab110e67bfe3b9b9!2sSMPN%202%20CIBINONG-BOGOR!5e0!3m2!1sid!2sid!4v1710168912268!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+                    <a href="https://maps.app.goo.gl/AL8ftaAXM3AuGYaSA" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk membuka peta</a>
+                    <p class="description">Hati-hati nyasar ke Ending yang salah</p>
+                
+            </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md5 col-10">
+                <div class="card text-center text-bg-light">
+                    <div class="card-header">
+                      Akad Nikah
+                    </div>
+                    <div class="card-body">
+                     <div class="row justify-content-center">
+                         <div class="col-md-6">
+                             <i class="bi bi-clock d-block"></i>
+                             <span>17.00 - 21.25</span>
+                         </div>
+                         <div class="col-md-6">
+                            <i class="bi bi-calendar3 d-block"></i>
+                            <span>Rabu, 23 Oktober 2024</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card-footer">
+                      Saat acara akad diharapkan untuk kondusif menahan sindirian
+                    </div>
+                  </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="story" class="story">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md8 col-10 text-center">
+                <span>Bagaimana cinta kami kembali</span>
+                <h2>ours story</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Eius rerum, placeat blanditiis omnis optio aliquid!</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image" style="background-image: url(img/);"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Di Senggol Netizen</h3>
+                                <span>Dari Tahun 2024</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. <br> Vitae illo est, atque 
+                                    incidunt laudantium quasi?
+                                </p>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="miror">
+                        <div class="timeline-image" style="background-image: url(img/);"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Capek Di Senggol Mulu</h3>
+                                <span>Di Tahun 2025</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                                    Aliquid beatae necessitatibus quisquam tempora officiis libero dolorum laborum voluptatum?
+                                </p>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <div class="timeline-image" style="background-image: url(img/);"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Memutuskan Balikan</h3>
+                                <span>25 Desember 2025</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nisi maxime tempora quidem aliquam numquam. 
+                                    Amet quod officiis qui ducimus est.
+                                </p>
+                            </div>
+                        </div>
+
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="gallery">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md8 col-10 text-center">
+                <span>Memori Kisah Kami</span>
+                <h2>Galeri Foto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Eius rerum, placeat blanditiis omnis optio aliquid!</p>
+            </div>
+
+            <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+                <div class="col mt-3">
+                    <a href="img/gallery/" data-toggle="lightbox" data-caption="This describes the image" 
+                    data-gallery="museum">
+                        <img src="img/gallery/thumbnail/" alt="Yijin & Hee Do" class="img-fluid
+                        w-100 rounded">
+                    </a>
+                </div>
+
+                <div class="col mt-3">
+                    <a href="img/gallery/" data-toggle="lightbox" data-caption="This describes the image" 
+                    data-gallery="museum">
+                        <img src="img/gallery/thumbnail/" alt="Yijin & Hee Do" class="img-fluid
+                        w-100 rounded">
+                    </a>
+                </div>
+
+                <div class="col mt-3">
+                    <a href="img/gallery/" data-toggle="lightbox" data-caption="This describes the image" data-gallery="museum">
+                        <img src="img/gallery/thumbnail/" alt="Yijin & Hee Do" class="img-fluid
+                        w-100 rounded">
+                    </a>
+
+                </div>
+                <div class="col mt-3">
+                    <a href="img/gallery/" data-toggle="lightbox" data-caption="This describes the image" data-gallery="museum">
+                        <img src="img/gallery/thumbnail/" alt="Yijin & Hee Do" class="img-fluid
+                        w-100 rounded">
+                    </a>
+
+                </div>
+                <div class="col mt-3">
+                    <a href="img/gallery/" data-toggle="lightbox" data-caption="This describes the image" data-gallery="museum">
+                        <img src="img/gallery/thumbnail/" alt="Yijin & Hee Do" class="img-fluid
+                        w-100 rounded">
+                    </a>
+
+                </div>
+                </div>
+                <div class="col mt-3">
+                    <a href="img/gallery/" data-toggle="lightbox" data-caption="This describes the image" data-gallery="museum">
+                        <img src="img/gallery/thumbnail/" alt="Yijin & Hee Do" class="img-fluid
+                        w-100 rounded">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <small class="block">&copy; 2024 YiDo Wedding. All Rights Reserved</small>
+                <small class="block"> Design by <a href="https://instagram.com/azkiyam_">
+                    @azkiyam_</a></small>
+
+                    <ul class="mt-3">
+                        <li>
+                            <a href="https://instagram.com/azkiyam_"><i class="bi bi-instagram"></i></a>
+                            <a href="https://youtube.com/@Azkiya_M?si=t7gWfn3_HZFM2NDP"><i class="bi bi-youtube"></i></a>
+                            <a href=" https://x.com/Gumihoxy?t=PI2zk50Hpv9uPGptMECXzA&s=08"><i class="bi bi-twitter-x"></i></a>
+                            <a href="https://www.tiktok.com/@whitepe00?_t=8kahjJOi0Ii&_r=1"><i class="bi bi-tiktok"></i></a>
+                        </li>
+                    </ul>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const rootElement = document.querySelector(":root");
+    function disableScroll() {
+    scrollTop = window.pageYOofset || document.documentElement.scrollTop;
+    scrollLeft = window.pageXOofset || document.documentElement.scrollLeft;
+    
+    window.onscroll = function () { 
+        window.scrollTo(scrollTop, scrollLeft);
+    }
+    
+
+    rootElement.style.scrollBehavior = 'auto';
+}
+
+function enableScroll () {
+window.onscroll = function () { }
+rootElement.style.scrollBehavior = 'smooth'
+localStorage.setItem('opened', 'true')
+}
+
+if (!localStorage.getItem('opened')) {
+disableScroll();
+}
+
+</script>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <!--Navbar end-->
+
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2024, // required
+        month: 10, // required
+        day: 23, // required
+        hours: 17, // Default is 0 [0-23] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "Hari", plural: "Hari" },
+          hours: { singular: "Jam", plural: "Jam" },
+          minutes: { singular: "Menit", plural: "Menit" },
+          seconds: { singular: "Detik", plural: "Detik" },
+        },
+      });
+    </script>
+
+    <script>
+    
+    const hamburger = document.querySelector('.navbar-toggler')
+    const stickyTop = document.querySelector('.sticky-top')
+
+    hamburger.addEventListener('click', function() {
+        stickyTop.style.overflow = 'visible';
+ });
+
+ const offcanvas =  document.querySelector('.offcanvas');
+ offcanvas.addEventListener('hidden.bs.offcanvas', function () {
+stickyTop.style.overflow = 'hidden';
+ });
+
+
+
+    </script>
+
+  </body>
+</html>
